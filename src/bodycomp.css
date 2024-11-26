@@ -1,0 +1,78 @@
+.faded-text {
+    color: #fff; 
+    font-size: 50px; 
+    animation: fadeInLeft 1s ease-out forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      transform: translateX(-20px); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+ 
+  .ant-carousel .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Set dot color to black */
+.ant-carousel .slick-dots li button {
+    background-color: black;
+  }
+  
+  /* Highlight active dot with black */
+  .ant-carousel .slick-dots li.slick-active button {
+    background-color: black;
+    opacity: 1;
+  }
+
+  /* Change color of the prev arrow */
+.ant-carousel .slick-prev {
+    color: black; /* Set color to black */
+  }
+  
+  /* Change color of the next arrow */
+  .ant-carousel .slick-next {
+    color: black; /* Set color to black */
+  }
+  
+  /* Optionally, you can add hover effects */
+  .ant-carousel .slick-prev:hover,
+  .ant-carousel .slick-next:hover {
+    color: gray; /* Change to gray on hover */
+  }
+  .section10 .bg-smile {
+    background-image: url('./assets/connect.jpeg'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+  @keyframes slideUp {
+    0% {
+      transform: translate(-50%, 50%); 
+      opacity: 0;
+    }
+    40% {
+      transform: translate(-50%, -50%); 
+      opacity: 1;
+    }
+    90% {
+      transform: translate(-50%, -50%); 
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%, 50%); 
+      opacity: 0;
+    }
+  }
+  .slide-up-animation {
+    animation: slideUp 4s ease-in-out infinite;
+  }
+  
